@@ -1,0 +1,87 @@
+
+.carousel-image {
+    object-fit: cover
+}
+
+h2 {
+    text-align: center
+}
+
+.navbar-light .navbar-brand {
+    color: #3282ff;
+}
+
+.navbar-brand {
+    height: 35px;
+    padding: 0px;
+}
+
+.bg-primary {
+    background-color: #3282ff
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+    margin-right: 12px;
+}
+
+.app-store-download {
+    width: 175px;
+    height: 60px;
+}
+
+.feature-icon {
+    /* width: 140px; */
+    height: 140px;
+    /* overflow: hidden; */
+}
+
+.active {
+    background: rgba(255,255,255,0) 
+}
+
+.carousel-item {
+    background: rgba(255,255,255,0) 
+}
+
+.carousel-inner-light {
+    background: #F8F8F8;
+    border-radius: 25px;
+}
+
+.headline-dark {
+    color: #282828
+}
+
+.carousel-caption-review {
+    top: 3rem;
+}
+
+.carousel-caption-review p {
+    margin-top: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    color: #555555;
+}
+
+.carousel-caption-review .name {
+    color: rgb(156, 149, 149);
+}
+
+.carousel-control-prev-icon-review {
+    background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23b8b8b8' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    color: black;
+}
+
+.carousel-control-next-icon-review {
+    background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23b8b8b8' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    color: black;
+}
+
+#myCarousel-2 .carousel-indicators li {
+    background-color: rgba(211, 211, 211, 0.452);
+}
+#myCarousel-2 .carousel-indicators .active {
+    background-color: #3281ff85;
+}
